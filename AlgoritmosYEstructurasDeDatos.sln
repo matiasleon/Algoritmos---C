@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusB", "AlgoritmosYEstructurasDeDatos\APlusB.csproj", "{7B808CCD-6B17-4295-8E1E-A68508A65434}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumPairwiseProduct", "MaximumPairwiseProduct\MaximumPairwiseProduct.csproj", "{415D226B-1739-4EDD-A9BE-9180D4B3601A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumPairwiseProductStressTest", "StressTest\MaximumPairwiseProductStressTest.csproj", "{18DE5186-4E1E-4AC1-B84B-56E1BE7130C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{563A8C53-F443-4542-ABC2-A755ECB3A0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Number", "Fibonacci Number\Fibonacci Number.csproj", "{0FDECC3A-5357-4F32-90B6-403A48CE4091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{18DE5186-4E1E-4AC1-B84B-56E1BE7130C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18DE5186-4E1E-4AC1-B84B-56E1BE7130C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18DE5186-4E1E-4AC1-B84B-56E1BE7130C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDECC3A-5357-4F32-90B6-403A48CE4091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDECC3A-5357-4F32-90B6-403A48CE4091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDECC3A-5357-4F32-90B6-403A48CE4091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDECC3A-5357-4F32-90B6-403A48CE4091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{7B808CCD-6B17-4295-8E1E-A68508A65434} = {5E49B38C-C78D-4C0C-997D-74E1ADC01945}
 		{415D226B-1739-4EDD-A9BE-9180D4B3601A} = {5E49B38C-C78D-4C0C-997D-74E1ADC01945}
 		{18DE5186-4E1E-4AC1-B84B-56E1BE7130C0} = {5E49B38C-C78D-4C0C-997D-74E1ADC01945}
+		{0FDECC3A-5357-4F32-90B6-403A48CE4091} = {563A8C53-F443-4542-ABC2-A755ECB3A0BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C1AEE37-5073-4CF4-9E85-7F11ECDD4F22}
