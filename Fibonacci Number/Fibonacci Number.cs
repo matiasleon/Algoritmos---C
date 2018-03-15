@@ -11,22 +11,16 @@ namespace Fibonacci_Number
         static void Main(string[] args)
         {
             var numberString = Console.ReadLine();
-            var number = int.Parse(numberString);
+            var number = int.Parse(numberString) - 1;
 
-            Int64 last = 1;
-            Int64 last2 = 0;
-            Int64 fibonnacciNumber = 0;
-            for (int i = 2; i <= number; i++)
+            var array = new Int64[int.Parse(numberString)];
+            array[0] = 0;
+            array[1] = 1;
+            for (int i = 2; i < number; i++)
             {
-                fibonnacciNumber = last + last2;
-                last2 = last;
-                last = fibonnacciNumber;
+                array[i] = array[i-1] + array[i-2];
             }
-            Console.WriteLine(fibonnacciNumber);
-            while (true)
-            {
-                
-            }
+            Console.WriteLine(array[number - 1]);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace AlgoritmosYEstructurasDeDatos
             var a = int.Parse(numeros[0]);
             var b = int.Parse(numeros[1]);
             Console.WriteLine(a + b);
+            Console.ReadLine();
         }
     }
 }
