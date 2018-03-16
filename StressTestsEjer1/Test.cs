@@ -10,7 +10,7 @@ namespace StressTestsEjer1
             while (true)
             {
                 var random = new Random();
-                var n = random.Next(0, 20);
+                var n = random.Next(0, 45);
 
                 var fast = Fastfibo(n);
                 var slow = Slowfibo(n);
