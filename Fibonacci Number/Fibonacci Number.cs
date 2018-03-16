@@ -11,7 +11,8 @@ namespace Fibonacci_Number
         static void Main(string[] args)
         {
             var numberString = Console.ReadLine();
-            var number = int.Parse(numberString) + 2;
+            var inputNumber = int.Parse(numberString);
+            var number =  inputNumber + 2;
 
             var array = new Int64[number];
             array[0] = 0;
@@ -20,7 +21,7 @@ namespace Fibonacci_Number
             {
                 array[i] = array[i-1] + array[i-2];
             }
-            Console.WriteLine(array[int.Parse(numberString)]);
+            Console.WriteLine(array[inputNumber]);
         }
     }
 }
