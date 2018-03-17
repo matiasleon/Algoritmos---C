@@ -13,7 +13,6 @@ namespace MinimoComunMultiplo
             var b = long.Parse(array[1]);
 
             Console.WriteLine(FastMcm(a, b));
-            Console.ReadLine();
         }
 
         private static long FastMcd(long a, long b)
