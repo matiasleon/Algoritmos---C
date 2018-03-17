@@ -12,7 +12,6 @@ namespace LastDigitFibonacci
             var number = Int64.Parse(input);
 
             Console.WriteLine(Fibo(number));
-            Console.ReadLine();
         }
 
         private static Int64 Fibo(Int64 n)
