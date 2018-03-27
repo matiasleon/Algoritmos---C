@@ -11,8 +11,11 @@ namespace MoneyChange
             var number = int.Parse(input);
 
             var diez = GetMoney(number, 10);
-            var cinco = GetMoney(number - diez * 10, 5);
-            var uno = GetMoney(number - cinco *5, 1);
+            number = number - diez * 10;
+            var cinco = GetMoney(number , 5);
+            number = number - cinco * 5;
+            var uno = GetMoney(number, 1);
+
             Console.WriteLine(diez + cinco + uno);
             Console.ReadLine();
         }
@@ -21,8 +24,12 @@ namespace MoneyChange
         {
             var moneyChangeCount = 0;
             var dif = number - moneyChange;
-            
-            while (dif > moneyChange)
+            moneyChangeCount++;
+            if (number - moneyChange < 0)
+            {
+                return 0;
+            }
+            while (dif >= moneyChange && dif > 0)
             {
                 
                 dif = dif - moneyChange;
