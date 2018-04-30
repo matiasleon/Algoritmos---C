@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moneyChangeV2", "moneyChang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootMaxValue", "LootMaxValue\LootMaxValue.csproj", "{4C7A495E-E13C-45AA-AE0C-DAE6466404D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{58E08AE9-A29E-4FBB-B9AF-907E063C9AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiniarySearch", "BiniarySearch\BiniarySearch.csproj", "{0B677EBE-707A-4281-8434-4439D832C795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,10 @@ Global
 		{4C7A495E-E13C-45AA-AE0C-DAE6466404D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7A495E-E13C-45AA-AE0C-DAE6466404D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7A495E-E13C-45AA-AE0C-DAE6466404D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B677EBE-707A-4281-8434-4439D832C795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B677EBE-707A-4281-8434-4439D832C795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B677EBE-707A-4281-8434-4439D832C795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B677EBE-707A-4281-8434-4439D832C795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +126,7 @@ Global
 		{C59F3814-AB68-49C1-84F7-4012D48456DD} = {0A5157F7-94D0-4CD0-84A7-335AF7B3B975}
 		{DFF16C46-59E6-4AFF-87AD-357E31CA041E} = {0A5157F7-94D0-4CD0-84A7-335AF7B3B975}
 		{4C7A495E-E13C-45AA-AE0C-DAE6466404D3} = {0A5157F7-94D0-4CD0-84A7-335AF7B3B975}
+		{0B677EBE-707A-4281-8434-4439D832C795} = {58E08AE9-A29E-4FBB-B9AF-907E063C9AC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C1AEE37-5073-4CF4-9E85-7F11ECDD4F22}
