@@ -11,9 +11,15 @@ namespace BiniarySearch
         static void Main(string[] args)
         {
             var orderedArray = ReadData();
-            //var numbersToSearch = ReadData();
-            var position = BinarySearch(orderedArray, 1, 0, orderedArray.Length - 1);
-            Console.WriteLine(position);
+            var numbersToSearch = ReadData();
+            var results = String.Empty;
+            for (int i = 0; i < numbersToSearch.Length; i++)
+            {
+                var position = BinarySearch(orderedArray, numbersToSearch[i],0 , orderedArray.Length - 1);
+                results = results + " " + position;
+            }
+            
+            Console.WriteLine(results);
             Console.ReadLine();
         }
 
