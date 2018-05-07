@@ -11,17 +11,17 @@ namespace BiniarySearch
         static void Main(string[] args)
         {
             var orderedArray = ReadData();
-            var numbersToSearch = ReadData();
+            //var numbersToSearch = ReadData();
+            var position = BinarySearch(orderedArray, 1, 0, orderedArray.Length - 1);
+            Console.WriteLine(position);
             Console.ReadLine();
-
-            
         }
 
         static int BinarySearch( int[] array, int key, int low, int high )
         {
             if (high < low)
             {
-                return low - 1;
+                return -1;
             }
 
             var mid = low + (high - low) / 2;
@@ -35,7 +35,7 @@ namespace BiniarySearch
             }
             else
             {
-                return BinarySearch(array, key, mid-1,high);
+                return BinarySearch(array, key, mid + 1,high);
             }
         }
 
@@ -56,7 +56,7 @@ namespace BiniarySearch
         }
 
         // para hacer un stress test
-        static int linearSearch(int[] a, int x|)
+        static int linearSearch(int[] a, int x)
         {
             for (int i = 0; i < a.Length; i++)
             {
