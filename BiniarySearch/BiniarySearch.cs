@@ -29,19 +29,20 @@ namespace BiniarySearch
             {
                 return -1;
             }
-
+            
             var mid = low + (high - low) / 2;
             if (key == array[mid])
             {
                 return mid;
             }
-            else if (key < array[mid])
+
+			if (key < array[mid])
             {
                 return BinarySearch(array, key, low, mid - 1);
             }
             else
             {
-                return BinarySearch(array, key, mid + 1,high);
+                return BinarySearch(array, key, mid + 1, high);
             }
         }
 
